@@ -53,8 +53,12 @@ body
 { background-image: url("pic/cupcake.jpg") ;
   background-repeat: repeat;
   background-attachment: fixed;
+  width:100%;
 }
-
+#myContainer{
+	width:100%;
+	
+}
 h3
 {        font-family: Jokerman; 
          font-size: 46pt;

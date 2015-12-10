@@ -120,10 +120,12 @@ h4
   z-index: 10 !important;
 }
 .tic-tac-toe input[type="radio"].player-1 + label:after {
-  content: "o";
+  content: icon;
+  icon: url(pic/chocolate cookie.png);
 }
 .tic-tac-toe input[type="radio"].player-2 + label:after {
-  content: "x";
+  content: icon;
+  icon: url(pic/Milk.png);
 }
 .tic-tac-toe input[type="radio"].player-1:checked + label:after, .tic-tac-toe input[type="radio"].player-2:checked + label:after {
   opacity: 1;

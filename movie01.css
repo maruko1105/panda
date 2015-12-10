@@ -98,12 +98,12 @@ h4
 }
 /* Tic-tac-toe game
 -------------------------------------------------------------- */
-@player-1 + label:after{
-content: "o";
+
+@content: "o"{
 src:url("EMULE.png");
 }
-@player-2 + label:after{
-content: "x";
+
+@content: "x"{
 src:url("EVERNOTE.png");
 }
 

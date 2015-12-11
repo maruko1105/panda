@@ -80,22 +80,7 @@ h4
 		 color: #2E2E2E;
 }
 
-.button
-{        font-family: chiller; 
-         font-size: 18pt;
-         font-weight: bold;		 
-		 text-align: center; 
-		 color: #2E2E2E;
-		 border-style:dotted;
-         border-color: #1E90FF;
-         width: 6em;
-		 background-color: #87CEFA;
-		 border-radius: 25px;
-         position:absolute;
-		 top: 154%;
-		 left: 45%; 
-         
-}
+
 /* Tic-tac-toe game
 -------------------------------------------------------------- */
 

@@ -222,6 +222,22 @@ div, ul, li, img {
          
 }
 
+.button01
+{        font-family: chiller; 
+         font-size: 18pt;
+         font-weight: bold;		 
+		 text-align: center; 
+		 color: #2E2E2E;
+		 border-style:dotted;
+         border-color: #1E90FF;
+         width: 6em;
+		 background-color: #87CEFA;
+		 border-radius: 25px;
+         position:absolute;
+		 top: 165%;
+		 left: 45%; 
+}
+
 .video
 {       display: block;
         margin-left: auto;

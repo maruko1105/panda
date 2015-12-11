@@ -1,3 +1,11 @@
+@font-face{
+	font-family:garban;
+	src:url("gaban-outline-regular-FFP.ttf");
+	}
+@font-face{
+	font-family:child;
+	src:url("ChildsWish.ttf");
+	}	
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -38,12 +46,13 @@ a{
 
 .nav ul li  {
 	display: inline-block;
-	height: 120px;
-	width: 120px;
+	height: 140px;
+	width: 140px;
 	background: #F08080;
 	color: #A0522D;
-	font-family: chiller;
-	font-size: 22px;
+	font-family: child;
+	font-weight: bold;
+	font-size: 16px;
 	padding-top: 40px;
 	border: 5px solid #d1d1d1;
 	-moz-border-radius: 50%;
@@ -53,7 +62,6 @@ a{
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
 .nav ul li:hover, .nav ul li:active, .nav ul li:focus{
 	-moz-transform: scale(0.9);
 	-webkit-transform: scale(0.9);
@@ -66,7 +74,7 @@ body
   background-attachment: fixed;
 }
 h1
-{        font-family: Jokerman; 
+{        font-family: garban; 
          font-size: 60pt;
          font-weight: bold;		 
 		 text-align: center; 
@@ -198,7 +206,7 @@ div, ul, li, img {
 }
 #credit
  {
-         font-family: chiller; 
+         font-family: child; 
          font-size: 20pt;
          font-weight: bold;		 
 		 text-align: center; 
@@ -206,7 +214,7 @@ div, ul, li, img {
 }
 
 .button
-{        font-family: chiller; 
+{        font-family: child; 
          font-size: 18pt;
          font-weight: bold;		 
 		 text-align: center; 

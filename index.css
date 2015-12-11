@@ -1,15 +1,18 @@
 @font-face{
 	font-family:orange;
 	src:url("orangejuice.ttf");
-	}
+}
+@font-face{	font-family:bunny;
+	src:url("Crazy_bunny.ttf");
+}
 p.dotted
 {         border-style:dotted;
           border-color: #1E90FF;
           margin-left: auto;
           margin-right: auto;
           width: 40em;
-          font-size: 18pt;
-		  font-family: Gabriola;
+          font-size: 20pt;
+		  font-family: bunny;
 		  font-weight:bold;
 		  background-color: #87CEFA;
 		  position: relative;
@@ -42,8 +45,8 @@ animate
     margin: 0px 08px 08px 0px;
     float: center;
 	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
+	font-family: bunny;
+	font-size: 28px;
 	color: #FFF;
 	text-decoration: none;
     display: inline;

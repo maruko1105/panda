@@ -78,10 +78,11 @@ p.blocktext
  
 h1
 {        font-family: child; 
-         font-size: 30pt;
+         font-size: 22pt;
          font-weight: bold;		 
 		 text-align: center; 
-		 color: #2E2E2E;
+		 color: #4B0082;
+		 
 }
 h2
 {        font-family: garban; 
@@ -93,7 +94,7 @@ h2
 }
 h3
 {        font-family: garban; 
-         font-size: 60pt;
+         font-size: 30pt;
          font-weight: bold;		 
 		 text-align: center; 
 		 color: #1E90FF;
